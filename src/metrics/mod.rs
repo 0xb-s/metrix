@@ -1,3 +1,6 @@
+// src/metrics/mod.rs
+
+pub mod async_timer;
 pub mod counter;
 pub mod gauge;
 pub mod histogram;
