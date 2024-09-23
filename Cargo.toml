@@ -1,0 +1,16 @@
+[package]
+name = "metrix"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+axum = "0.7.6"
+bytes = "1.7.2"
+http-body-util = "0.1.2"
+hyper = { version = "1.4.1", features = ["full"] }
+hyper-util = "0.1.8"
+tokio = { version = "1.40.0", features = ["full"] }
+
+
+[[example]]
+name = "axum_example"
