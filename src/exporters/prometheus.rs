@@ -38,7 +38,7 @@ async fn metrics_handler(State(registry): State<Arc<Registry>>) -> impl IntoResp
     )
 }
 
-fn collect_metrics(registry: &Arc<Registry>) -> String {
+pub(crate) fn collect_metrics(registry: &Arc<Registry>) -> String {
     let mut output = String::new();
 
     // Collect counters
