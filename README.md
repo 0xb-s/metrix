@@ -15,19 +15,6 @@ Metrix supports various metric types, including counters, gauges, histograms, me
 ## Table of Contents
 
 - [Installation](#installation)
-- [Usage](#usage)
-  - [Adding Metrix to Your Project](#adding-metrix-to-your-project)
-  - [Collecting Metrics](#collecting-metrics)
-  - [Prometheus Exporter](#prometheus-exporter)
-  - [Example with Axum](#example-with-axum)
-- [Metric Types](#metric-types)
-  - [Counters](#counters)
-  - [Gauges](#gauges)
-  - [Histograms](#histograms)
-  - [Meters](#meters)
-  - [Timers](#timers)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Installation
 
