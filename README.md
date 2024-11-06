@@ -9,7 +9,6 @@ Metrix supports various metric types, including counters, gauges, histograms, me
 - **Easy Integration**: Simple API to instrument your Rust applications with minimal effort.
 - **Multiple Metric Types**: Support for counters, gauges, histograms, meters, and timers.
 - **Prometheus Exporter**: Built-in exporter to serve metrics in Prometheus format over HTTP.
-- **Thread-Safe**: Designed with concurrency in mind, using synchronization primitives where necessary.
 - **Extensible**: Easily extendable to support custom metrics and exporters.
 
 ## Table of Contents
